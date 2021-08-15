@@ -1,23 +1,22 @@
 /* CSS for Header Section */
+
 .header {
     display: flex;
     justify-content: flex-end;
     margin-top: 5%;
 }
 .award {
-    margin-left:20%;
+    /* margin-left:15%; */
     margin-top: 4%;
 }
 .aw-content {
     color: #FF3147;
     font-weight:500;
- 
 }
 .heading {
    color: #000000;
    font-weight: bold;
    margin-top: 10px;
-
 }
 .para-text {
     font-family: 'Poppins', sans-serif;
@@ -32,37 +31,169 @@ color: #FFFFFF;
 margin-top: 4%;
 }
 
+/* CSS for What We Do Section */
+
+.wedo-header{
+    margin-top:3%;
+}
+.span-content{
+    color: #FF3147;
+    font-weight:400;
+}
+.heading-content {
+  display: flex;
+  justify-content:flex-end;
+  margin-top: 2%;
+  color: #000000;
+}
+.heading-content h2 {
+    font-weight: 700;
+}
+.heading-content p {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+}
+.carousel-item {
+    position: relative;
+    width: 280px;
+    height:370px;
+    border-radius: 5px;
+}
+.img-radius {
+    border-radius: 5px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #FF3147;
+    border-radius: 5px;
+  }
+.carousel-item:hover .overlay {
+    opacity: 1;
+  }
+.icon {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.icon img a{
+      text-decoration: none;  
+  }
+.overlay a{
+      text-decoration: none;
+  }
+.read-btn {
+      color: #FF3147;
+      margin-top: 25px; 
+  }
+.read-btn:hover {
+    color: #FF3147;
+}
+.read-btn a:visited {
+    color: #FF3147;
+}
+.read-line{
+    display: inline-block;
+    font-size: 14px;
+    font-weight:600;
+}
+.slide {
+    width: 280px;
+    position: relative;
+    border-radius: 5px;
+}
+.slider-side {
+    position: absolute;
+    display:flex;
+    justify-content: flex-end;
+   left: 100%;
+   bottom:0%
+}
+.slider-img {
+    width:280px;
+    height:370px;
+    border-radius: 5px;
+}
+.carousel-itm {
+    position: relative;
+    width: 280px;
+    height:370px;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+.carousel-itm:hover .overlay {
+    opacity: 1;
+  }
+.indicators {
+    width:100px;
+    height: 18px;
+    margin-top: 30px;
+}
+ .indicators button {
+    border: none;
+    margin:-3px;
+ }
+ #indicator-img {
+    width:25px;
+    height:25px;  
+    border-radius: 90%;
+}
+.indicator-img {
+      width:8px;
+      height:10px;
+      border-radius: 90%;
+ }
+
+
+
+
+
+
+
 
 
 /* CSS for mobile devices */
+
+@media (max-width: 1016px) { 
+    .header{
+        display: block;
+    }
+    .img {
+        margin-top: 2%;
+        margin-left: -2%;
+        width:500px;
+    }
+    .slider-side {
+        display:none;
+    }
+    .slide{
+        margin: 0 auto;
+    }
+ }
 
 @media (max-width: 500px) { 
     
  }
 
-
 @media (min-width: 768px) { 
 
  }
 
-
-@media (max-width: 1016px) { 
-    .header{
-        display: block;
-        margin-left:-20%;
-    }
-    .img {
-        margin-left:20%;
-        margin-top: 2%;
-
-    }
- }
-
-
 @media (min-width: 1200px) { 
 
 }
-
 
 @media (min-width: 1400px) { 
 
