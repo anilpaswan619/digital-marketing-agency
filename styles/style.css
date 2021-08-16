@@ -3,7 +3,7 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 .award {
     /* margin-left:15%; */
@@ -139,26 +139,79 @@ margin-top: 4%;
 .indicators {
     width:100px;
     height: 18px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
  .indicators button {
     border: none;
     margin:-3px;
  }
  #indicator-img {
-    width:25px;
-    height:25px;  
+    width:17px;
+    height:17px;  
     border-radius: 90%;
 }
 .indicator-img {
-      width:8px;
-      height:10px;
+      width:5px;
+      height:5px;
       border-radius: 90%;
  }
 
+/* CSS for Why Choose Us Section */
 
+.why-content, .best-content {
+    text-align: center;
+}
+.why-section {
+    display: inline-block;
+    justify-content: center;
+}
+.card {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.card-img-top {
+    width: 65px;
+    height: 65px;
+}
+.why-container {
+    margin-top: 6%;
+}
+.why-content {
+    color: #FF3147;
+    font-weight:400;
+}
+.best-content h2 {
+    font-weight: 700;
+    color: #000000;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
 
+/* CSS for Why Choose Us Section */
 
+.project{
+    margin-top:6%;
+}
+.nav-link:hover{
+    color: #000000;
+}
+  .buttn:active, .buttn:focus {
+    color: #ffffff !important;
+    background-color: #FF3147 !important;
+  }
+.nav-link {
+      background-color: #F6F6F6 !important;
+      color: #000000 !important;
+      margin-left: 8%;
+      border-radius: 0px !important;
+  }
+  .nav {
+      width: 30%;  
+  }
+.tab-content {
+    width:45%;
+}
 
 
 
@@ -181,6 +234,19 @@ margin-top: 4%;
     .slide{
         margin: 0 auto;
     }
+    .indicators{
+        margin: 0 auto;
+    }
+   .d-flex,.nav, .tab-content {
+        display: block !important;
+        width: 100%;
+    }
+    .nav-link {
+        margin-top: 3%;
+        margin-left: 0;
+    }
+    
+    
  }
 
 @media (max-width: 500px) { 
