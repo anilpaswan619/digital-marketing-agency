@@ -31,6 +31,80 @@ color: #FFFFFF;
 margin-top: 4%;
 }
 
+/* CSS for Contact Us Form Section */
+
+.modal-content {
+    padding:5%;
+}
+.modal-button {
+    padding:2%;
+    font-size: larger;
+}
+.modal-title {
+    font-weight: bold;
+    color: #2D3142;
+    letter-spacing: 0.4px;
+}
+.input-fields {
+    display: flex;
+    
+}
+.form-control {
+    border: 0;
+    
+}
+.input-txt{
+    border-radius: 0;
+    border-bottom: 1px solid #6F718F99;
+    font-weight:normal;
+ }
+
+ input[placeholder]{
+    letter-spacing: 0.4px;
+ }
+ .form-control:focus {
+    box-shadow: none;
+}
+.form-check-input {
+    border: 2px solid #FF3366;
+border-radius: 3px;
+
+}
+.form-check-label {
+    color: #616678;
+opacity: 0.9;
+}
+.form-check-input:active, .form-check-input:focus {
+    color: #ffffff !important;
+    background-color: #FF3366!important;
+    
+  }
+  .form-check-input:focus {
+    box-shadow: none!important;
+}
+
+.input-txt:focus{
+	border-color: #FF3366;;
+	border-width: medium medium 2px;
+    /* font-weight: bold; */
+    letter-spacing: 0.4px;
+    color: #2D3142;
+}
+.close-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 /* CSS for What We Do Section */
 
 .wedo-header{
@@ -188,7 +262,7 @@ margin-top: 4%;
     margin-bottom: 3%;
 }
 
-/* CSS for Why Choose Us Section */
+/* CSS for Our Project Section */
 
 .project{
     margin-top:6%;
@@ -213,6 +287,64 @@ margin-top: 4%;
     width:45%;
 }
 
+/* CSS for Experts Growth Section */
+
+.growth {
+    margin-top:6%;
+}
+.card-hover {
+    text-align: center;
+    display:inline-block;  
+    margin:2%;  
+    width: 12rem;
+}
+.card-hover:hover {
+    box-shadow: 3px 6px 20px #672C2C1F;
+    transform:scale(1.2);
+  }
+.card-hover img{
+    width:30px;
+    height:30px;
+    margin-top: 20px;
+}
+
+/* CSS for Client's Feedback Section */
+
+.feedback{
+    margin-top:4%;
+}
+#bg-img {
+    margin-left:-5%;
+}
+.back-img{
+    width:35px;
+}
+.client {
+ margin-top: 3%;
+ margin-bottom: 6%;
+}
+#client-name {
+    color: #FF3147;
+    font-weight: bold;
+}
+#client-company {
+    color: #808080;
+}
+.feedback-content {
+    margin: auto;
+  width: 50%;
+}
+
+/* CSS for Footer Section */
+
+.footer {
+    background-color: #FF3147;
+    margin-top: 5%;
+}
+.footer-logos {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 
 
@@ -243,9 +375,17 @@ margin-top: 4%;
     }
     .nav-link {
         margin-top: 3%;
-        margin-left: 0;
     }
     
+    .card-hover {
+        margin-top: 5%;
+       
+    }
+    .align-center {
+        margin: auto;
+        width: 50%;
+      
+    }
     
  }
 

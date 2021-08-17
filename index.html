@@ -16,7 +16,56 @@
                   <span class="aw-content">AWARD WINNING</span>
                   <h1 class="h1 heading">DIGITAL MARKETING AGENCY</h1>
                   <p class="para-text">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
-                  <button class="btn contact-btn btn-outline-danger">CONTACT US</button>
+                  <button type="button" class="btn contact-btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" >CONTACT US</button>
+                  
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="close-button">
+                          <h4 class="modal-title" id="exampleModalLabel">Talk to us</h4>
+                          
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="https://getform.io/f/7ce21c71-a45c-4865-9fb6-391e3c3496fc" method="POST">
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label"></label>
+                              <input type="email" class="form-control input-txt" id="recipient-name" name="email" placeholder="Work email*" required oninvalid="this.setCustomValidity('Please Enter Your Work Email')" oninput="setCustomValidity('')">
+                            
+                            </div>
+                            <div class="mb-5 input-fields mt-5">
+                              <label for="recipient-name" class="col-form-label"></label>
+                              <input type="text" class="form-control input-txt" id="recipient-name" name="first name" placeholder="First name*" required="" oninvalid="this.setCustomValidity('Please Enter Your First Name')" oninput="setCustomValidity('')">
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <label for="recipient-name" class="col-form-label"></label>
+                              <input type="text" class="form-control input-txt" id="recipient-name" name="last name" placeholder="Last name*" required="" oninvalid="this.setCustomValidity('Please Enter Your Last Name')" oninput="setCustomValidity('')">
+                            </div>
+
+                            <div class="form-check mb-4">
+                              <input class="form-check-input" type="checkbox"  name="subscribe" value="yes" id="flexCheckDefault" required="" oninvalid="this.setCustomValidity('Please Accept This Checkbox')" oninput="setCustomValidity('')">
+                              <label class="form-check-label" for="flexCheckDefault">
+                              <input type="hidden" name="subscribe" value="no">
+                               I agree to Fyle's terms and conditions, and provide consent to send me communication.
+                              </label>
+                            </div>
+              
+                              <div class="d-grid gap-2 col-12 mx-auto">
+                              <button type="submit" class="btn btn-danger modal-button"><strong>Contact Us</strong></button>
+                            </div>
+                          
+                          </form>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
               </div>
               <div class="w-100 p-3 img">
                   <img src="images/hero.png" class="img-fluid" alt="girl image"/>
@@ -255,7 +304,7 @@
       </div>
      </div>
      <!--------Experts Growth Section-------->
-     <div class="container-fluid bg-light">
+     <div class="container-fluid bg-light growth">
         <div class="container">
           <div class="why-content">
             <span>EXPERTS GROWTS</span>
@@ -263,25 +312,66 @@
           <div class="best-content">
             <h2>OUR COMPANY GROWTH</h2>
           </div>
-
-
-
-
-
-
-
-
-
-
-
+          <div class="align-center">
+          <div class="card card-hover">
+            <img src="images/growth-icon/heart.png" class="card-img-top" alt="heart image">
+            <div class="card-body">
+              <h5 class="card-title"><strong>199 +</strong></h5>
+              <p class="card-text">Statisfied Customer</p>
+            </div>
+          </div>
+          <div class="card card-hover left-card">
+            <img src="images/growth-icon/clock.png" class="card-img-top" alt="clock image">
+            <div class="card-body">
+              <h5 class="card-title"><strong>1591 +</strong></h5>
+              <p class="card-text">Days Of Operation</p>
+            </div>
+          </div>
+          <div class="card card-hover left-card">
+            <img src="images/growth-icon/Path 4402.png" class="card-img-top" alt="task image">
+            <div class="card-body">
+              <h5 class="card-title"><strong>283 +</strong></h5>
+              <p class="card-text">Completed Project</p>
+            </div>
+          </div>
+          <div class="card card-hover left-card">
+            <img src="images/growth-icon/Path 4406.png" class="card-img-top" alt="trophy image">
+            <div class="card-body">
+              <h5 class="card-title"><strong>75 +</strong></h5>
+              <p class="card-text">Win Awards</p>
+            </div>
+          </div>
         </div>
-     </div>
+       </div>
+      </div>
+      <!--------Client's Feedback Section-------->
+      <div class="container feedback">
+        <div class="why-content">
+          <span>CLIENT'S FEEDBACK</span>
+        </div>
+        <div class="best-content">
+          <h2>PEOPLE SAY'S ABOUT US !</h2>
+        </div>
+        <div class="feedback-content">
+          <img class="back-img" src="images/Quotemarks-left/Quotemarks-left.png" alt="quotemarks image"/>
+          <span id="bg-img">Jannat</span> <span> Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below 
+            for those interested. Sections Bonorum et Malorum original.</span><br/>
+          <div class="client">
+            <span id="client-name">JANNAT TUMPA</span><span id="client-company"> - COO, AMERIMAR ENTERPRISES, INC.</span>
+          </div>
+        </div>
+      </div>
+      <!--------Footer Section-------->
+      <div class="container-fluid footer">
+        <div class="container footer-logos">
+          <img class="img-fluid" src="images/footer/footer-logo.png" alt="logos image"/>
+        </div>
+      </div>
 
 
 
 
 
-    
 
 
 
