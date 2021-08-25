@@ -11,6 +11,7 @@
 .aw-content {
     color: #FF3147;
     font-weight:500;
+    font-size:22px;
 }
 .heading {
    color: #000000;
@@ -97,7 +98,7 @@ opacity: 0.9;
 }
 .span-content{
     color: #FF3147;
-    font-weight:400;
+    font-weight:500;
     padding-top: 6%;
 }
 .heading-content {
@@ -239,7 +240,7 @@ opacity: 0.9;
 }
 .why-content {
     color: #FF3147;
-    font-weight:400;
+    font-weight:500;
 }
 .best-content h2 {
     font-weight: 700;
@@ -256,6 +257,7 @@ opacity: 0.9;
 .d-flex {
     margin: auto;
     width: 90%;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-link:hover{
     color: #000000;
@@ -269,7 +271,7 @@ opacity: 0.9;
       color: #000000 !important;
       margin-left: 8%;
       border-radius: 0px !important;
-      padding:8%;
+      padding:4%;
   }
   .nav {
       width: 30%;  
@@ -312,11 +314,12 @@ opacity: 0.9;
     margin-top:4%;
 }
 #bg-img {
-    margin-left:-6%;
+    margin-left:-7%;
+    font-family: 'Poppins', sans-serif;
 }
 .back-img{
     width:8%;
-    margin-top: -3%;
+    margin-top: -2%;
 }
 .client {
  margin-top: 3%;
@@ -332,6 +335,7 @@ opacity: 0.9;
 .feedback-content {
     margin: auto;
   width: 50%;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* CSS for Footer Section */
