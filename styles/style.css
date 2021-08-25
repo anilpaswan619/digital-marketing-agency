@@ -253,10 +253,14 @@ opacity: 0.9;
 .project{
     margin-top:6%;
 }
+.d-flex {
+    margin: auto;
+    width: 90%;
+}
 .nav-link:hover{
     color: #000000;
 }
-  .buttn:active, .buttn:focus {
+  .buttn:active, .buttn:focus, .buttn:hover {
     color: #ffffff !important;
     background-color: #FF3147 !important;
   }
@@ -265,12 +269,13 @@ opacity: 0.9;
       color: #000000 !important;
       margin-left: 8%;
       border-radius: 0px !important;
+      padding:8%;
   }
   .nav {
       width: 30%;  
   }
 .tab-content {
-    width:45%;
+    width:65%;
 }
 
 /* CSS for Experts Growth Section */
@@ -278,6 +283,10 @@ opacity: 0.9;
 .growth {
     margin-top:6%;
     padding-bottom: 2%;
+}
+.align-center {
+    margin: auto;
+    width: 90%;
 }
 #padding-growth {
     padding-top:4%;
@@ -290,7 +299,6 @@ opacity: 0.9;
 }
 .card-hover:hover {
     box-shadow: 3px 6px 20px #672C2C1F;
-    transform:scale(1.2);
   }
 .card-hover img{
     width:30px;
@@ -304,10 +312,11 @@ opacity: 0.9;
     margin-top:4%;
 }
 #bg-img {
-    margin-left:-5%;
+    margin-left:-6%;
 }
 .back-img{
-    width:35px;
+    width:8%;
+    margin-top: -3%;
 }
 .client {
  margin-top: 3%;
@@ -362,6 +371,7 @@ opacity: 0.9;
     }
     .nav-link {
         margin-top: 3%;
+        margin-left: 0%;
     }
     .card-hover {
         margin-top: 5%; 
@@ -372,3 +382,4 @@ opacity: 0.9;
     }
     
  }
+
